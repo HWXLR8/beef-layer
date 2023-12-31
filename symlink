@@ -1,0 +1,6 @@
+#!/bin/bash
+
+SCRIPT_DIR=$(dirname "$(readlink -f "$0")")
+
+sudo ln -sv $SCRIPT_DIR /var/db/repos/
+echo $'[beef-layer]\nlocation = /var/db/repos/beef-layer' sudo tee /etc/portage/repos.conf/beef-layer.conf
