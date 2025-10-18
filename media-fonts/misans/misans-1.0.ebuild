@@ -5,7 +5,7 @@ HOMEPAGE="https://font.mi.com/"
 SRC_URI="https://hyperos.mi.com/font-download/MiSans_Global_ALL.zip"
 LICENSE="OFL-1.1"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64 ~x86 ~arm64"
 IUSE=""
 
 S="${WORKDIR}"
