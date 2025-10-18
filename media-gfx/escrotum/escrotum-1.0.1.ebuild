@@ -1,10 +1,10 @@
 # Copyright 2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
-PYTHON_COMPAT=( python3_{7,8,9,10,11} )
-
+PYTHON_COMPAT=( python3_{11..13} )
+DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1
 
 DESCRIPTION="Screen capture using pygtk, inspired by scrot"
